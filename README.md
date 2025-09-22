@@ -73,9 +73,9 @@ text2sql/
 │   └── cosql_dataset/
 ├── model-007/               # Selected fine-tuned model
 │   └── checkpoint-1000/     # Selected fine-tuned checkpoint
-├── Documentazione.pdf       # Full academic report
+├── Documentazione.pdf       # Documentation (Italian)
 ```
 
-## Documentation _(coming soon)_
+## Documentation
 
-The full technical documentation of the project, including literature review, methodology, datasets, training pipeline, and experimental results, is available in _italian language_ in: **Documentazione.pdf (coming soon)**
+The complete documentation of the project, including literature review, methodology, datasets, training pipeline, and experimental results, is available in _italian language_ in: [Documentazione.pdf](https://github.com/cirovitale/text2sql/blob/main/Documentazione.pdf)
