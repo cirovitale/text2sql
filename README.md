@@ -23,7 +23,13 @@ git clone https://github.com/cirovitale/text2sql
 cd text2sql
 ```
 
-### 2. Environment Setup with Conda
+### 2. Download Dataset
+
+1. Download the CoSQL dataset from: [https://yale-lily.github.io/cosql](https://yale-lily.github.io/cosql)
+2. Extract the downloaded files
+3. Place the dataset folder in the `/dataset/cosql_dataset/` directory: 
+
+### 3. Environment Setup with Conda
 
 #### Create and Activate Conda Environment
 
@@ -65,17 +71,17 @@ The evaluation includes:
 
 ```
 text2sql/
-├── training.py              # Training pipeline
-├── inference.py             # Inference pipeline
-├── testing.py               # Testing pipeline
-├── environment.yml          # Conda environment specification
-├── dataset/                 # CoSQL dataset
-│   └── cosql_dataset/
-├── model-007/               # Selected fine-tuned model
-│   └── checkpoint-1000/     # Selected fine-tuned checkpoint
-├── Documentazione.pdf       # Documentation (Italian)
+├── training.py             # Training pipeline
+├── inference.py            # Inference pipeline
+├── testing.py              # Testing pipeline
+├── environment.yml         # Conda environment specification
+├── dataset/
+│   └── cosql_dataset/      # Directory for CoSQL dataset
+├── model-007/              # Selected fine-tuned model
+│   └── checkpoint-1000/    # Selected fine-tuned checkpoint
+├── Documentazione.pdf      # Documentation (Italian)
 ```
 
 ## Documentation
 
-The complete documentation of the project, including literature review, methodology, datasets, training pipeline, and experimental results, is available in _italian language_ in: [Documentazione.pdf](https://github.com/cirovitale/text2sql/blob/main/Documentazione.pdf)
+The complete documentation of the project, including literature review, methodology, datasets, training pipeline, and experimental results, is available in _Italian language_ in: [Documentazione.pdf](https://github.com/cirovitale/text2sql/blob/main/Documentazione.pdf)
